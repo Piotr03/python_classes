@@ -6,7 +6,7 @@ def isprime(n):
 
     for k in range (2, n):
         # Here I will use modulo to check whether it is possible to divide n by k
-        # If so, then the number is not prime
+        # If so, then n is not prime
         if (n % k == 0):
             return False
     # If it is not dividable then it is a prime number
