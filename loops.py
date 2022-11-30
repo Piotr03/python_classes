@@ -24,7 +24,7 @@ j = 0
 while j < 7:
     j += 1
     print(f'j={j}')
-# without j += 1 we would have an ifinite loop
+# without j += 1 we would have an infinite loop
 
 print('---------------')
 j = 0

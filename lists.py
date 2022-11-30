@@ -22,6 +22,29 @@ l1.sort(reverse=True)
 for val in l1:
     print(f'val={val}')
 
+print ('---------------')
 l4 = [321, 26, 23163, 'Hello from Python 3', 3267, 89]
 #TODO extract the "Python" string from the list l4
+string = (l4[3])
+print(string[11:17])
+print ('---------------')
+
 #TODO sum up all numbers from l4  (type - check if it is a number)
+total_of_l4 = 0
+for i in range(len(l4)):
+    if type(l4[i]) == int:
+        total_of_l4 += l4[i]
+print(total_of_l4)
+
+print ('---------------')
+print('List comprehensions')
+
+l5 = [x for x in l4]
+print(l4)
+print(l5)
+print ('---------------')
+l5 = [x for x in l4 if isinstance(x, (int, float, complex))]
+print(sum(l5))
+print ('---------------')
+l6 = [x*3 for x in l5]
+print(l6)

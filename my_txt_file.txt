@@ -1,0 +1,1 @@
+Hello. My name is Piotr. I need this txt file containing some random text for the purpose of the python classes, which I am taking this semester.
