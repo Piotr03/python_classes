@@ -85,17 +85,14 @@ print("8x8 array with random natural values on the diagonal: ")
 print(g)
 print()
 
-
 # 9. Write a function which creates an n×n matrix with (i,j)-entry equal to i+j.
 def create_matrix(n):
     return np.array([[i + j for i in range(n)] for j in range(n)])
-
 
 print("n x n matrix with (i,j)-entry equal to i+j = ")
 # printing the matrix
 print(create_matrix(5))
 print()
-
 
 # 10. Write a function which creates an n×n matrix with rows having subsequent values multiplied by the row's number.
 # For example for n = 4:
@@ -103,7 +100,6 @@ print()
 def create_matrix2(n):
     row = np.array([i for i in range(n)])
     return np.array([row * (i+1) for i in range(n)])
-
 
 print("n x n matrix with rows having subsequent values multiplied by the row's number: ")
 # printing the matrix
